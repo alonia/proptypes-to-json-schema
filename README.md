@@ -5,7 +5,7 @@
 ## 安装
 
 ```sh
-tnpm i proptypes-to-json-schema -S
+npm i proptypes-to-json-schema -S
 ```
 
 ## 使用
