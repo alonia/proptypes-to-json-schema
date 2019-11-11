@@ -1,6 +1,6 @@
 # proptypes-to-json-schema   &nbsp;&nbsp;[![npm](https://img.shields.io/npm/v/proptypes-to-json-schema.svg?maxAge=3600&style=flat-square)](https://www.npmjs.com/package/proptypes-to-json-schema?_blank)
 
-> 将 React PropTypes 转换生成 [Json schema](https://spacetelescope.github.io/understanding-json-schema/index.html)，常用于 React 模块的可视化配置参数。
+> 将 React PropTypes 转换生成 [JSON Schema](https://spacetelescope.github.io/understanding-json-schema/index.html)，常用于 React 模块的可视化配置参数。
 
 ## 安装
 
