@@ -1,5 +1,7 @@
 # proptypes-to-json-schema   &nbsp;&nbsp;[![npm](https://img.shields.io/npm/v/proptypes-to-json-schema.svg?maxAge=3600&style=flat-square)](https://www.npmjs.com/package/proptypes-to-json-schema?_blank)
 
+> Github：<https://github.com/tw93/proptypes-to-json-schema>
+
 > 将 React PropTypes 转换生成 [JSON Schema](https://spacetelescope.github.io/understanding-json-schema/index.html)，常用于 React 模块的可视化配置参数。
 
 ## 安装
@@ -38,7 +40,9 @@ fs.writeFileSync(path.join(__dirname, 'schema.json'), JSON.stringify(apiInfo, nu
 |数组项|arrayOf|array|组展示(*1)|同左|
 |对象|shape|object|对象展示(*2)|同左|
 
+
 *1: 子元素展示依赖于arrayOf的设置，类似这样设置 `PropTypes.arrayOf(PropTypes.xxx)`,其实xxx为前3种基本类型,不设置默认是字符串形式
+
 *2: 目前对象形式必须通过 PropTypes.shape 来指明类型，目前不支持嵌套对象，只支持嵌套基础类型！
 
 
